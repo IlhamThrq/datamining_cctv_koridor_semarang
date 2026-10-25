@@ -9,3 +9,6 @@ verify_koridor_result.json
 
 # ZCode session files
 .zcode/
+
+# Scratch (sample frames for camera comparison)
+.smoke/

@@ -12,15 +12,15 @@ Kolektor frame CCTV publik untuk penelitian **penambangan pola spasial-temporal 
 | 4 | KB01 | Kalibanteng | Barat-Pusat / Flyover Bandara | arterial | 352×288 |
 | 5 | KG01 | Karangayu ke timur | Barat-Pusat / Papandayan | arterial | 1600×905 |
 | 6 | IB01 | Indraprasta–Imam Bonjol | Pusat / Konektor CBD | arterial | 640×480 |
-| 7 | SP01 | Simpang Lima 2 | Pusat / CBD | arterial | 704×576 |
+| 7 | SP01 | JPO Ahmad Yani | Pusat / CBD Simpang Lima | arterial | 1600×904 |
 | 8 | PH01 | DPU Pahlawan | Pusat-Selatan / Pahlawan | arterial | 640×360 |
-| 9 | SW01 | Sriwijaya 01 | Pusat-Selatan / Peterongan | arterial | 1600×900 |
+| 9 | SW01 | Sriwijaya 02 | Pusat-Selatan / Peterongan | arterial | 1600×900 |
 | 10 | KW01 | Kaliwiru | Selatan / Tanjakan Kaliwiru | arterial | 704×576 |
 | 11 | BS01 | Bukit Sari | Selatan / Sendangmulyo-Tembalang | arterial | 1600×900 |
 | 12 | JT01 | Fly Over Jatingaleh Wide | Selatan / Koridor Tol | tol | 1600×450 |
 | 13 | SR01 | Exit Tol Srondol | Selatan / Gerbang Tembalang | tol | 1280×960 |
 
-Kriteria pemilihan (tuliskan di metodologi paper): stratifikasi berurutan sepanjang koridor, hanya kamera fixed (PTZ/360 dieksklusi demi validitas perbandingan antar waktu), terverifikasi aktif. Registry lengkap: `data_koridor/camera_registry.json`.
+Kriteria pemilihan (tuliskan di metodologi paper): stratifikasi berurutan sepanjang koridor, hanya kamera fixed (PTZ/360 dieksklusi demi validitas perbandingan antar waktu), terverifikasi aktif. Catatan revisi desain: pada hari ke-1 (26 Okt 2026, ~05:00 WIB) dua kamera diganti karena geometri pandangan lemah — SP01 Simpang Lima 2 → JPO Ahmad Yani (jalan lurus multi-lane, 2688×1520) dan SW01 Sriwijaya 01 → Sriwijaya 02 (billboard di Sriwijaya 01 menutup ~25-30% frame). `camera_id` tetap sama; frame sebelum revisi tetap sah sebagai data awal masing-masing titik. Registry lengkap: `data_koridor/camera_registry.json`.
 
 ## Cara menjalankan
 
