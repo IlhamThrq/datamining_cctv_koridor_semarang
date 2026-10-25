@@ -2,7 +2,7 @@ name: Collect Corridor Frames
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # UTC; WIB = UTC+7. GitHub jitter is +-3-10 min; real timestamps are logged per frame.
+    - cron: "7,17,27,37,47,57 * * * *" # UTC; WIB = UTC+7. Every 10 min, offset to :07 to avoid GitHub's high-load whole minutes.
   workflow_dispatch:
 
 permissions:
