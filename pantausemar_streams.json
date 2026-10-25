@@ -1,0 +1,546 @@
+[
+  {
+    "cctv_id": "414",
+    "link_id": "307",
+    "name": "KYAI SALEH",
+    "url": "https://livepantau.semarangkota.go.id/ba20c7a2-f499-48c4-af4f-815068f678a0/index.m3u8",
+    "lat": "-6.986660206981591",
+    "lng": "110.41393529540247"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "308",
+    "name": "THAMRIN PANDANARAN 360",
+    "url": "https://livepantau.semarangkota.go.id/162c2b72-d3a6-490e-b15e-eca621897f3b/index.m3u8",
+    "lat": "-6.9874484",
+    "lng": "110.417212"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "310",
+    "name": "BANGKONG",
+    "url": "https://livepantau.semarangkota.go.id/b8013256-1adc-4d5f-aed6-b28ed7d0b52e/index.m3u8",
+    "lat": "-6.994344663219261",
+    "lng": "110.43197296940994"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "311",
+    "name": "MILO",
+    "url": "https://livepantau.semarangkota.go.id/1e056193-d64c-4e53-84a1-41a55d373ad0/index.m3u8",
+    "lat": "-6.9950313677355265",
+    "lng": "110.43384148159886"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "312",
+    "name": "KALIBANTENG",
+    "url": "https://livepantau.semarangkota.go.id/14692ada-0bf1-4da9-bd4f-13a926804958/index.m3u8",
+    "lat": "-6.9845739281732975",
+    "lng": "110.38351440522527"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "316",
+    "name": "KALIBANTENG 2",
+    "url": "https://livepantau.semarangkota.go.id/c5e748d2-ee65-4a81-91d7-07085a6fad50/index.m3u8",
+    "lat": "-6.9845739281732975",
+    "lng": "110.38351440522527"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "313",
+    "name": "SIMP EXIT TOL KRAPYAK 360",
+    "url": "https://livepantau.semarangkota.go.id/5bcd5bbc-91fb-4496-bcc9-a362ec48a7f0/index.m3u8",
+    "lat": "-6.987905205244879",
+    "lng": "110.36834198834495"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "314",
+    "name": "SIMPANG KARIADI PTZ",
+    "url": "https://livepantau.semarangkota.go.id/5ed366a4-fec8-43b4-9052-6fe9a3fd5847/index.m3u8",
+    "lat": "-6.994456408986015",
+    "lng": "110.40679725503159"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "9581",
+    "name": "KARIADI",
+    "url": "https://livepantau.semarangkota.go.id/30993efa-38bc-42f7-a74e-7044fe42e3a9/index.m3u8",
+    "lat": "-6.994456408986015",
+    "lng": "110.40679725503159"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "315",
+    "name": "POLDA 360",
+    "url": "https://livepantau.semarangkota.go.id/74ffdc80-264f-4028-94cc-4ede386b0340/index.m3u8",
+    "lat": "-6.99734554026615",
+    "lng": "110.41946265584971"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "321",
+    "name": "SUPRIYADI",
+    "url": "https://livepantau.semarangkota.go.id/75722eec-3065-4f02-b1a3-c6ec259dc52b/index.m3u8",
+    "lat": "-7.005675113011601",
+    "lng": "110.45437382622522"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "326",
+    "name": "FATMAWATI",
+    "url": "https://livepantau.semarangkota.go.id/5d13ca45-d96a-43b0-af69-6b01c5168305/index.m3u8",
+    "lat": "-7.0111193118503525",
+    "lng": "110.47278279634085"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "327",
+    "name": "JRAKAH",
+    "url": "https://livepantau.semarangkota.go.id/cd99f288-896a-4e73-9d8c-275ac0008a7d/index.m3u8",
+    "lat": "-6.98662715622268",
+    "lng": "110.36059956505855"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "329",
+    "name": "PASAR KAMBING 360",
+    "url": "https://livepantau.semarangkota.go.id/67435362-8242-4f71-bf82-6c4f899a665e/index.m3u8",
+    "lat": "-7.008614450590608",
+    "lng": "110.43267639966359"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "330",
+    "name": "SP. AKPOL",
+    "url": "https://livepantau.semarangkota.go.id/ceda53cc-7431-4e23-aa31-ccc312deac09/index.m3u8",
+    "lat": "-7.015755239902285",
+    "lng": "110.41839208187575"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "331",
+    "name": "HANOMAN",
+    "url": "https://livepantau.semarangkota.go.id/c83dfda9-1e9e-4b8a-8c83-f7396d7781e4/index.m3u8",
+    "lat": "-6.986628722356102",
+    "lng": "110.37508515409023"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "333",
+    "name": "Tugumuda 3",
+    "url": "https://livepantau.semarangkota.go.id/9ea9723a-1384-42dd-9ca7-0b593a4c000b/index.m3u8",
+    "lat": "-6.983552591745231",
+    "lng": "110.41007168405561"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "334",
+    "name": "BALAIKOTA",
+    "url": "https://livepantau.semarangkota.go.id/bfcb0bac-048f-4b4f-a607-83267af978dc/index.m3u8",
+    "lat": "-6.981802885757487",
+    "lng": "110.41203745360802"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "338",
+    "name": "SIMPANG LIMA 2",
+    "url": "https://livepantau.semarangkota.go.id/7af16225-3215-49b7-8966-d649a947960d/index.m3u8",
+    "lat": "-6.989701906091162",
+    "lng": "110.4239394386692"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "341",
+    "name": "KALIWIRU",
+    "url": "https://livepantau.semarangkota.go.id/cbb3e887-84c4-43c7-9e70-913dc8f460fd/index.m3u8",
+    "lat": "-7.0234963601843",
+    "lng": "110.42039310747082"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "342",
+    "name": "PUCANG GADING",
+    "url": "https://livepantau.semarangkota.go.id/6fc25748-f6d0-48e9-8c7b-b1489c1765af/index.m3u8",
+    "lat": "-7.0180394",
+    "lng": "110.4896678"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "343",
+    "name": "Bea Cukai",
+    "url": "https://livepantau.semarangkota.go.id/e74537ad-d4d8-4230-8144-d371eda979f4/index.m3u8",
+    "lat": "-6.962162914166672",
+    "lng": "110.39435494849369"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "349",
+    "name": "Tugumuda 2 Wide",
+    "url": "https://livepantau.semarangkota.go.id/26306fea-44d0-4fa7-a82d-c153e86deaa2/index.m3u8",
+    "lat": "-6.984085673745568",
+    "lng": "110.40957461560829"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "3636",
+    "name": "Tugumuda 3-2",
+    "url": "https://livepantau.semarangkota.go.id/cad1b0a8-696f-419b-9da4-cea853304ce7/index.m3u8",
+    "lat": "-6.984085673745568",
+    "lng": "110.40957461560829"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "354",
+    "name": "INDRAPRASTA-IMAM BONJOL",
+    "url": "https://livepantau.semarangkota.go.id/0b44f5b2-780d-4f86-9ecd-801041b8925a/index.m3u8",
+    "lat": "-6.97857137309681",
+    "lng": "110.41163595541559"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "355",
+    "name": "BERGOTA 360",
+    "url": "https://livepantau.semarangkota.go.id/0ccddd03-b302-458c-8618-69807ff6622c/index.m3u8",
+    "lat": "-6.993292725367926",
+    "lng": "110.4137406704881"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "360",
+    "name": "SIMPANG THAMRIN",
+    "url": "https://livepantau.semarangkota.go.id/3278760a-a203-4eb4-a331-3519eeb6bd1a/index.m3u8",
+    "lat": "-6.985533103185366",
+    "lng": "110.41761658090108"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "8393",
+    "name": "BATAN-THAMRIN",
+    "url": "https://livepantau.semarangkota.go.id/db2df515-cb51-4163-ba76-11d6d9f1b9a4/index.m3u8",
+    "lat": "-6.985533103185366",
+    "lng": "110.41761658090108"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "361",
+    "name": "Exit Tol Srondol",
+    "url": "https://livepantau.semarangkota.go.id/c3814165-b28d-4a32-b33f-007a8e412003/index.m3u8",
+    "lat": "-7.0610319210434955",
+    "lng": "110.4136417797885"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "362",
+    "name": "Simp Sukun",
+    "url": "https://livepantau.semarangkota.go.id/b5e002b6-9d51-4055-a56c-690b773bd809/index.m3u8",
+    "lat": "-7.062605567256019",
+    "lng": "110.4129704721982"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "1621",
+    "name": "BUNDARAN DIPONEGORO",
+    "url": "https://livepantau.semarangkota.go.id/c878988b-26b8-48ee-8352-4c5abfb61275/index.m3u8",
+    "lat": "-7.007793814036264",
+    "lng": "110.41604327781859"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "4145",
+    "name": "TUGUMUDA",
+    "url": "https://livepantau.semarangkota.go.id/f71d6c72-db49-475b-b170-bfac944eeac0/index.m3u8",
+    "lat": "-6.9843574",
+    "lng": "110.40915"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "1305",
+    "name": "KALIGARANG",
+    "url": "https://livepantau.semarangkota.go.id/c118ec35-b342-4b76-927e-672d5b5c53d6/index.m3u8",
+    "lat": "-6.995766634139341",
+    "lng": "110.40231267560914"
+  },
+  {
+    "cctv_id": "10209",
+    "link_id": "2105",
+    "name": "TITIK NOL",
+    "url": "https://livepantau.semarangkota.go.id/a0deaf08-a8f1-415a-9315-d1424f0ef9fb/index.m3u8",
+    "lat": "-6.9688885",
+    "lng": "110.4246946"
+  },
+  {
+    "cctv_id": "10239",
+    "link_id": "2798",
+    "name": "Jembatan Mberok",
+    "url": "https://livepantau.semarangkota.go.id/ac03c11b-4aa8-4311-a2c3-1dcdf12e33ab/index.m3u8",
+    "lat": "-6.968559914132089",
+    "lng": "110.42504213633904"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "2792",
+    "name": "Fly Over Jatingaleh WIde",
+    "url": "https://livepantau.semarangkota.go.id/5b09107f-81a6-4e14-b9b7-7712ef5aef7a/index.m3u8",
+    "lat": "-7.031379565095236",
+    "lng": "110.41811864815716"
+  },
+  {
+    "cctv_id": "10245",
+    "link_id": "3279",
+    "name": "DPU-Kel.Wonosari",
+    "url": "https://livepantau.semarangkota.go.id/02066f7c-0377-45c9-8804-f3ad65569ed0/index.m3u8",
+    "lat": "-6.974747423836861",
+    "lng": "110.31560102777037"
+  },
+  {
+    "cctv_id": "10245",
+    "link_id": "3278",
+    "name": "DPU-Terowongan Soetta USM",
+    "url": "https://livepantau.semarangkota.go.id/41f054be-4f47-46f3-b5eb-263c82ada1f5/index.m3u8",
+    "lat": "-6.979362074903987",
+    "lng": "110.45117518523813"
+  },
+  {
+    "cctv_id": "10245",
+    "link_id": "3277",
+    "name": "DPU_Pahlawan",
+    "url": "https://livepantau.semarangkota.go.id/c954ee49-2de6-4e7e-be98-8e17c659f9a9/index.m3u8",
+    "lat": "-6.992240022320623",
+    "lng": "110.42185968058838"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "3324",
+    "name": "Bukit Sari",
+    "url": "https://livepantau.semarangkota.go.id/4ff40187-00a9-440f-9256-9c0a89af55aa/index.m3u8",
+    "lat": "-7.043874961260227",
+    "lng": "110.42157761119759"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "3325",
+    "name": "Patung Diponegoro 360",
+    "url": "https://livepantau.semarangkota.go.id/533f1fdf-bc9d-44e4-ae3e-fdee94061cd5/index.m3u8",
+    "lat": "-7.048618184210592",
+    "lng": "110.41965451794837"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "3326",
+    "name": "Pasar Banyumanik",
+    "url": "https://livepantau.semarangkota.go.id/190e60ca-44df-4bb1-840b-7a0ccf35f169/index.m3u8",
+    "lat": "-7.073300281863589",
+    "lng": "110.41115190419555"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "4653",
+    "name": "COUNTING BANYUMANIK",
+    "url": "https://livepantau.semarangkota.go.id/68322b26-693f-479a-84a0-4ba700ec3c41/index.m3u8",
+    "lat": "-7.074309653496582",
+    "lng": "110.41118334226366"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "6268",
+    "name": "Counting Krapyak",
+    "url": "https://livepantau.semarangkota.go.id/60690ef5-ec79-4020-ae17-788a9df42566/index.m3u8",
+    "lat": "-6.987779431038806",
+    "lng": "110.36820064210754"
+  },
+  {
+    "cctv_id": "10209",
+    "link_id": "6601",
+    "name": "Bawah Tol X3W_IN",
+    "url": "https://livepantau.semarangkota.go.id/9b4a952d-5ebd-45a3-8dc6-e04d44851f51/index.m3u8",
+    "lat": "-6.956617414460944",
+    "lng": "110.45134081788028"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "7860",
+    "name": "Tugumuda 2",
+    "url": "https://livepantau.semarangkota.go.id/0f310a61-9d28-4f03-845d-daa815b72ccf/index.m3u8",
+    "lat": "-6.984831335934285",
+    "lng": "110.41013985942459"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "7767",
+    "name": "Camera 01",
+    "url": "https://livepantau.semarangkota.go.id/7455b40f-bbec-4b52-9a2b-f33b4364c4c2/index.m3u8",
+    "lat": "-7.072943100573512",
+    "lng": "110.41118323453831"
+  },
+  {
+    "cctv_id": "10441",
+    "link_id": "7641",
+    "name": "PAHLAWAN PTZ 1",
+    "url": "https://livepantau.semarangkota.go.id/41bedb9a-b93f-4f7d-b1a4-b6d0bc166c7d/index.m3u8",
+    "lat": "-6.9945187357073335",
+    "lng": "110.42081059423737"
+  },
+  {
+    "cctv_id": "10441",
+    "link_id": "7642",
+    "name": "PAHLAWAN PTZ 2",
+    "url": "https://livepantau.semarangkota.go.id/d7fa15ea-df64-4865-a24e-32a333b17207/index.m3u8",
+    "lat": "-6.9945187357073335",
+    "lng": "110.42081059423737"
+  },
+  {
+    "cctv_id": "10441",
+    "link_id": "8713",
+    "name": "PAHLAWAN 180",
+    "url": "https://livepantau.semarangkota.go.id/5a9b5e8f-3336-4a0a-8fe0-6a7e48c43c1f/index.m3u8",
+    "lat": "-6.9945187357073335",
+    "lng": "110.42081059423737"
+  },
+  {
+    "cctv_id": "10441",
+    "link_id": "7643",
+    "name": "PAHLAWAN - RIMBA GRAHA",
+    "url": "https://livepantau.semarangkota.go.id/98291649-01d5-46a0-9f7b-204c48a2e139/index.m3u8",
+    "lat": "-6.995875641261524",
+    "lng": "110.41988482785995"
+  },
+  {
+    "cctv_id": "10441",
+    "link_id": "7644",
+    "name": "PAHLAWAN - BUNDARAN AIR MANCUR",
+    "url": "https://livepantau.semarangkota.go.id/0b552199-1ac2-45b0-9096-7c9e1b3848d1/index.m3u8",
+    "lat": "-6.992932591996135",
+    "lng": "110.42144602839531"
+  },
+  {
+    "cctv_id": "10441",
+    "link_id": "7645",
+    "name": "ARAH TUGU TUNAS",
+    "url": "https://livepantau.semarangkota.go.id/9468fa0e-c92f-4178-a9b6-3e94af0f456d/index.m3u8",
+    "lat": "-6.9928050474372645",
+    "lng": "110.42072595566216"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "8887",
+    "name": "PEMUDA - GAJAHMADA",
+    "url": "https://livepantau.semarangkota.go.id/4f06d6ad-9448-4397-843c-59e66f68252b/index.m3u8",
+    "lat": "-6.973747366261158",
+    "lng": "110.41997868344541"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "8890",
+    "name": "MT Haryono",
+    "url": "https://livepantau.semarangkota.go.id/ece9e864-bdbb-4db5-a8f3-30ddd7c2bebf/index.m3u8",
+    "lat": "-6.9856571373555285",
+    "lng": "110.43158898843247"
+  },
+  {
+    "cctv_id": "10441",
+    "link_id": "8869",
+    "name": "SRIWIJAYA 02",
+    "url": "https://livepantau.semarangkota.go.id/b23731ab-2aae-4bd0-8b22-2c47d8461f1a/index.m3u8",
+    "lat": "-7.001459211428023",
+    "lng": "110.42441362970271"
+  },
+  {
+    "cctv_id": "10441",
+    "link_id": "8868",
+    "name": "SRIWIJAYA 01",
+    "url": "https://livepantau.semarangkota.go.id/8eb25438-c8d3-4c8d-98fd-be74d14df3fa/index.m3u8",
+    "lat": "-7.001459211428023",
+    "lng": "110.42441362970271"
+  },
+  {
+    "cctv_id": "10441",
+    "link_id": "8856",
+    "name": "SIMPANG TENTREM MALL",
+    "url": "https://livepantau.semarangkota.go.id/873d1c8c-56d6-4918-906f-514cbbce5ea4/index.m3u8",
+    "lat": "-6.986070372503007",
+    "lng": "110.42239339565648"
+  },
+  {
+    "cctv_id": "10441",
+    "link_id": "8857",
+    "name": "ARAH PANDANARAN",
+    "url": "https://livepantau.semarangkota.go.id/78e494b8-4873-4bfd-96ad-a319358e3f21/index.m3u8",
+    "lat": "-6.9915460998662855",
+    "lng": "110.42001900715552"
+  },
+  {
+    "cctv_id": "10441",
+    "link_id": "8871",
+    "name": "SIMPANG WAGISAN TAMAN KASMARAN",
+    "url": "https://livepantau.semarangkota.go.id/7a8e0b4a-af0c-4b65-a43f-fe441c4bf4d3/index.m3u8",
+    "lat": "-6.991401779097943",
+    "lng": "110.4063248690095"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "9103",
+    "name": "METRO JOHAR",
+    "url": "https://livepantau.semarangkota.go.id/20fbd70b-a1df-4fa1-a3fa-1115a6bf43d8/index.m3u8",
+    "lat": "-6.971095117010179",
+    "lng": "110.42277318994154"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "9583",
+    "name": "Sam Poo Kong ke timur",
+    "url": "https://livepantau.semarangkota.go.id/2789145c-177d-424c-a9e6-affc59ba5967/index.m3u8",
+    "lat": "-6.9948348624975925",
+    "lng": "110.39924880659301"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "9584",
+    "name": "Simpang Paragon",
+    "url": "https://livepantau.semarangkota.go.id/7382d640-b645-451e-9029-4744950209ae/index.m3u8",
+    "lat": "-6.977594829865367",
+    "lng": "110.41648579644745"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "9588",
+    "name": "RUAS KERAPYAK",
+    "url": "https://livepantau.semarangkota.go.id/f058e160-742f-4960-a47f-ad1fc5354bd4/index.m3u8",
+    "lat": "-6.987600326282743",
+    "lng": "110.36876663570018"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "9611",
+    "name": "Karangayu ke timur",
+    "url": "https://livepantau.semarangkota.go.id/fcd5964e-b58b-48f5-b6f0-3e9af143f5c8/index.m3u8",
+    "lat": "-6.982547251583242",
+    "lng": "110.39172256228"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "9612",
+    "name": "Karangayu ke barat",
+    "url": "https://livepantau.semarangkota.go.id/0305a054-bb38-42f9-801b-113385baa0f6/index.m3u8",
+    "lat": "-6.982547251583242",
+    "lng": "110.39172256228"
+  },
+  {
+    "cctv_id": "414",
+    "link_id": "9656",
+    "name": "Sam Poo Kong ke barat",
+    "url": "https://livepantau.semarangkota.go.id/74de8123-8a1a-4bc1-8e16-cac739c61d8f/index.m3u8",
+    "lat": "-6.994830867612991",
+    "lng": "110.39940912943106"
+  },
+  {
+    "cctv_id": "10441",
+    "link_id": "9859",
+    "name": "JPO JALAN AHMAD YANI",
+    "url": "https://livepantau.semarangkota.go.id/5e20c403-7f34-4749-8f56-3863711e0d38/index.m3u8",
+    "lat": "-6.9909267384127345",
+    "lng": "110.42445237707864"
+  }
+]

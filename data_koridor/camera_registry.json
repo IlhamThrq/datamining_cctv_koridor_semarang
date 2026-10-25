@@ -1,0 +1,132 @@
+[
+  {
+    "camera_id": "JR01",
+    "name": "JRAKAH",
+    "url": "https://livepantau.semarangkota.go.id/cd99f288-896a-4e73-9d8c-275ac0008a7d/index.m3u8",
+    "lat": -6.9866272,
+    "lng": 110.3605996,
+    "route_order": 1,
+    "route": "arterial",
+    "zone": "Barat / Gerbang Kendal"
+  },
+  {
+    "camera_id": "KP01",
+    "name": "COUNTING KRAPYAK",
+    "url": "https://livepantau.semarangkota.go.id/60690ef5-ec79-4020-ae17-788a9df42566/index.m3u8",
+    "lat": -6.9877794,
+    "lng": 110.3682006,
+    "route_order": 2,
+    "route": "arterial",
+    "zone": "Barat / Gerbang Tol Krapyak"
+  },
+  {
+    "camera_id": "HN01",
+    "name": "HANOMAN",
+    "url": "https://livepantau.semarangkota.go.id/c83dfda9-1e9e-4b8a-8c83-f7396d7781e4/index.m3u8",
+    "lat": -6.9866287,
+    "lng": 110.3750852,
+    "route_order": 3,
+    "route": "arterial",
+    "zone": "Barat / Arteri Siliwangi"
+  },
+  {
+    "camera_id": "KB01",
+    "name": "KALIBANTENG",
+    "url": "https://livepantau.semarangkota.go.id/14692ada-0bf1-4da9-bd4f-13a926804958/index.m3u8",
+    "lat": -6.9845739,
+    "lng": 110.3835144,
+    "route_order": 4,
+    "route": "arterial",
+    "zone": "Barat-Pusat / Flyover Bandara"
+  },
+  {
+    "camera_id": "KG01",
+    "name": "KARANGAYU KE TIMUR",
+    "url": "https://livepantau.semarangkota.go.id/fcd5964e-b58b-48f5-b6f0-3e9af143f5c8/index.m3u8",
+    "lat": -6.9825473,
+    "lng": 110.3917226,
+    "route_order": 5,
+    "route": "arterial",
+    "zone": "Barat-Pusat / Koridor Papandayan"
+  },
+  {
+    "camera_id": "IB01",
+    "name": "INDRAPRASTA-IMAM BONJOL",
+    "url": "https://livepantau.semarangkota.go.id/0b44f5b2-780d-4f86-9ecd-801041b8925a/index.m3u8",
+    "lat": -6.9785714,
+    "lng": 110.411636,
+    "route_order": 6,
+    "route": "arterial",
+    "zone": "Pusat / Konektor ke CBD"
+  },
+  {
+    "camera_id": "SP01",
+    "name": "SIMPANG LIMA 2",
+    "url": "https://livepantau.semarangkota.go.id/7af16225-3215-49b7-8966-d649a947960d/index.m3u8",
+    "lat": -6.9897019,
+    "lng": 110.4239394,
+    "route_order": 7,
+    "route": "arterial",
+    "zone": "Pusat / CBD"
+  },
+  {
+    "camera_id": "PH01",
+    "name": "DPU_PAHLAWAN",
+    "url": "https://livepantau.semarangkota.go.id/c954ee49-2de6-4e7e-be98-8e17c659f9a9/index.m3u8",
+    "lat": -6.99224,
+    "lng": 110.4218597,
+    "route_order": 8,
+    "route": "arterial",
+    "zone": "Pusat-Selatan / Koridor Pahlawan"
+  },
+  {
+    "camera_id": "SW01",
+    "name": "SRIWIJAYA 01",
+    "url": "https://livepantau.semarangkota.go.id/8eb25438-c8d3-4c8d-98fd-be74d14df3fa/index.m3u8",
+    "lat": -7.0014592,
+    "lng": 110.4244136,
+    "route_order": 9,
+    "route": "arterial",
+    "zone": "Pusat-Selatan / Peterongan"
+  },
+  {
+    "camera_id": "KW01",
+    "name": "KALIWIRU",
+    "url": "https://livepantau.semarangkota.go.id/cbb3e887-84c4-43c7-9e70-913dc8f460fd/index.m3u8",
+    "lat": -7.0234964,
+    "lng": 110.4203931,
+    "route_order": 10,
+    "route": "arterial",
+    "zone": "Selatan / Tanjakan Kaliwiru"
+  },
+  {
+    "camera_id": "BS01",
+    "name": "BUKIT SARI",
+    "url": "https://livepantau.semarangkota.go.id/4ff40187-00a9-440f-9256-9c0a89af55aa/index.m3u8",
+    "lat": -7.043875,
+    "lng": 110.4215776,
+    "route_order": 11,
+    "route": "arterial",
+    "zone": "Selatan / Sendangmulyo-Tembalang"
+  },
+  {
+    "camera_id": "JT01",
+    "name": "FLY OVER JATINGALEH WIDE",
+    "url": "https://livepantau.semarangkota.go.id/5b09107f-81a6-4e14-b9b7-7712ef5aef7a/index.m3u8",
+    "lat": -7.0313796,
+    "lng": 110.4181186,
+    "route_order": 12,
+    "route": "tol",
+    "zone": "Selatan / Koridor Tol"
+  },
+  {
+    "camera_id": "SR01",
+    "name": "EXIT TOL SRONDOL",
+    "url": "https://livepantau.semarangkota.go.id/c3814165-b28d-4a32-b33f-007a8e412003/index.m3u8",
+    "lat": -7.0610319,
+    "lng": 110.4136418,
+    "route_order": 13,
+    "route": "tol",
+    "zone": "Selatan / Gerbang Tembalang"
+  }
+]
