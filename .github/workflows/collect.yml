@@ -1,12 +1,16 @@
 name: Collect Corridor Frames
 
+# Self-chaining collector: one run captures every ~10 min for ~5h45m,
+# then dispatches the next run itself. GitHub's cron scheduler proved
+# unreliable to register on this fresh repo, so this workflow does not
+# depend on it. Bootstrap: click "Run workflow" once (or dispatch via API).
+
 on:
-  schedule:
-    - cron: "7,17,27,37,47,57 * * * *" # UTC; WIB = UTC+7. Every 10 min, offset to :07 to avoid GitHub's high-load whole minutes.
   workflow_dispatch:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: corridor-collect
@@ -15,7 +19,7 @@ concurrency:
 jobs:
   capture:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 358
     steps:
       - uses: actions/checkout@v4
 
@@ -28,17 +32,30 @@ jobs:
       - name: Install collector dependencies
         run: pip install -r requirements-collector.txt
 
-      - name: Capture one cycle (13 corridor cameras)
-        run: python capture_koridor.py --duration 5 --timeout 20 --threads 7
-
-      - name: Commit and push captured data
+      - name: Capture loop (one cycle every ~10 min, ~5h45m total)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data_koridor/
-          if git diff --cached --quiet; then
-            echo "No new data to commit."
-            exit 0
-          fi
-          git commit -m "capture: $(date -u '+%Y-%m-%d %H:%M') UTC"
-          git push
+          end=$(( $(date +%s) + 20700 ))
+          while [ "$(date +%s)" -lt "$end" ]; do
+            python capture_koridor.py --duration 5 --timeout 20 --threads 7 || echo "capture cycle failed; continuing"
+            git add data_koridor/
+            if ! git diff --cached --quiet; then
+              git commit -m "capture: $(date -u '+%Y-%m-%d %H:%M') UTC"
+              git pull --rebase -q origin main || true
+              git push -q origin main || echo "push failed; will retry next cycle"
+            fi
+            remain=$(( end - $(date +%s) ))
+            [ "$remain" -le 0 ] && break
+            if [ "$remain" -gt 570 ]; then sleep 570; else sleep "$remain"; fi
+          done
+
+      - name: Chain next run (keeps collection running 24/7)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for i in 1 2 3; do
+            gh workflow run collect.yml && { echo "chained next run OK"; exit 0; }
+            echo "chain attempt $i failed; retry in 60s"; sleep 60
+          done
+          echo "::warning::could not chain next run - collection paused, dispatch manually"
