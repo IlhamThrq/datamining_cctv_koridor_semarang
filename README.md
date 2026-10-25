@@ -66,4 +66,4 @@ python capture_koridor.py --interval 600
 
 ## Sejarah provenance
 
-Koleksi 12 titik versi lama (21 Okt 2026, ±4 jam) tersimpan lokal di `data/` (di-gitignore, bukan bagian repo ini). Seluruh CSV/frame/chart/presentasi yang lebih lama dari draf sebelumnya mengandung metrik fabrikasi dan tidak boleh dipakai sebagai data observasi — termasuk `slide-deck/`, `bahan_ppt/`, dan `colab_bundle.zip` yang sengaja tidak dipublikasikan di repo ini.
+Folder project lama (12 titik versi awal, 21 Okt 2026, ±4 jam) kini menjadi backup terpisah di `D:\datamining\proyek_cctv_semarang\` — lihat `README_BACKUP.md` di sana. Seluruh CSV/frame/chart/presentasi dari draf sebelumnya mengandung metrik fabrikasi dan tidak boleh dipakai sebagai data observasi. Inventaris 64 stream pantausemar (`pantausemar_streams.json`) ikut repo ini — pakai untuk mencari URL pengganti jika ada stream yang rotasi/mati.

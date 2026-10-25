@@ -3,20 +3,7 @@
 __pycache__/
 *.pyc
 
-# Old 12-point collection (kept locally as historical data, not part of the corridor repo)
-data/
-
-# Generated bundles & presentation assets from the earlier (fabricated-data) draft - do not publish
-colab_bundle.zip
-bahan_ppt/
-slide-deck/
-PRESENTASI_DATA_MINING_CCTV_SEMARANG.md
-create_pptx_deck.py
-generate_ppt_assets.py
-generate_notebook.py
-
 # Scratch
-.smoke/
 *.log
 verify_koridor_result.json
 
