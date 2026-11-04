@@ -132,6 +132,7 @@ CAMERAS = [
         "camera_id": "PH01",
         "name": "DPU_PAHLAWAN",
         "url": "https://livepantau.semarangkota.go.id/19e497ac-604b-462f-a0c3-1496fdd54f23/index.m3u8",
+        "fallback_url": "https://livepantau.semarangkota.go.id/aab024b1-6ec4-4410-a476-861f1d5261ad/index.m3u8",
         "lat": -6.9922400,
         "lng": 110.4218597,
         "route_order": 8,
@@ -172,6 +173,7 @@ CAMERAS = [
         "camera_id": "JT01",
         "name": "FLY OVER JATINGALEH WIDE",
         "url": "https://livepantau.semarangkota.go.id/1f29fa3e-907f-4ff6-88c1-fb97d8a3df83/index.m3u8",
+        "fallback_url": "https://livepantau.semarangkota.go.id/11b579fd-143a-4b26-8ed8-00eecbba0e30/index.m3u8",
         "lat": -7.0313796,
         "lng": 110.4181186,
         "route_order": 12,
@@ -210,8 +212,10 @@ SEARCH_RULES: dict[str, list[str]] = {
 
 FALLBACK_RULES: dict[str, list[str]] = {
     "HN01": ["RUAS KERAPYAK", "SIMP EXIT TOL KRAPYAK 360"],
-    "SW01": ["SRIWIJAYA 01", "SRIWIJAYA 1"],
     "KG01": ["KARANGAYU KE BARAT"],
+    "PH01": ["PAHLAWAN - RIMBA GRAHA", "PAHLAWAN - BUNDARAN AIR MANCUR"],
+    "SW01": ["SRIWIJAYA 01", "SRIWIJAYA 1"],
+    "JT01": ["FLY OVER JATINGALEH"],
 }
 
 
@@ -240,7 +244,17 @@ def refresh_camera_urls_from_portal() -> int:
         end_arr = raw.find("];") + 1
         cctvs = json.loads(raw[:end_arr])
 
-        def find_url(keywords: list[str]) -> str | None:
+        def find_url(keywords: list[str], exclude_url: str | None = None) -> str | None:
+            for item in cctvs:
+                oname = item.get("owner_name", "").upper()
+                links = item.get("links", [])
+                for kw in keywords:
+                    kw_up = kw.upper()
+                    if oname == kw_up:
+                        for l in links:
+                            u = l.get("url")
+                            if u and u != exclude_url:
+                                return u
             for item in cctvs:
                 oname = item.get("owner_name", "").upper()
                 links = item.get("links", [])
@@ -249,16 +263,20 @@ def refresh_camera_urls_from_portal() -> int:
                     if kw_up in oname:
                         for l in links:
                             lname = l.get("name", "").upper()
-                            if kw_up in lname or len(links) == 1:
-                                return l.get("url")
-                        if links:
-                            return links[0].get("url")
+                            u = l.get("url")
+                            if u and u != exclude_url and (kw_up in lname or len(links) == 1):
+                                return u
+                        for l in links:
+                            u = l.get("url")
+                            if u and u != exclude_url:
+                                return u
             for item in cctvs:
                 for l in item.get("links", []):
                     lname = l.get("name", "").upper()
+                    u = l.get("url")
                     for kw in keywords:
-                        if kw.upper() in lname:
-                            return l.get("url")
+                        if u and u != exclude_url and kw.upper() in lname:
+                            return u
             return None
 
         updated = 0
@@ -270,10 +288,9 @@ def refresh_camera_urls_from_portal() -> int:
                     cam["url"] = new_url
                     updated += 1
             if cid in FALLBACK_RULES:
-                new_fb = find_url(FALLBACK_RULES[cid])
+                new_fb = find_url(FALLBACK_RULES[cid], exclude_url=cam.get("url"))
                 if new_fb and new_fb != cam.get("fallback_url"):
                     cam["fallback_url"] = new_fb
-
         if updated > 0:
             print(f"[AUTO-DISCOVERY] Successfully refreshed {updated} camera stream URLs from portal.", flush=True)
         return updated
@@ -322,12 +339,13 @@ def capture_single_camera(cam: dict, timeout: float = 8.0) -> tuple[dict, np.nda
         deadline = time.monotonic() + timeout
         frame = None
         try:
-            while time.monotonic() < deadline:
-                ok, f = cap.read()
-                if ok and f is not None:
-                    frame = f
-                    break
-                time.sleep(0.2)
+            if cap.isOpened():
+                while time.monotonic() < deadline:
+                    ok, f = cap.read()
+                    if ok and f is not None:
+                        frame = f
+                        break
+                    time.sleep(0.2)
         finally:
             cap.release()
 
