@@ -58,7 +58,7 @@ CAMERAS = [
     {
         "camera_id": "JR01",
         "name": "JRAKAH",
-        "url": "https://livepantau.semarangkota.go.id/cd99f288-896a-4e73-9d8c-275ac0008a7d/index.m3u8",
+        "url": "https://livepantau.semarangkota.go.id/c095f541-afc8-4125-8e2a-50bdb824ec81/index.m3u8",
         "lat": -6.9866272,
         "lng": 110.3605996,
         "route_order": 1,
@@ -68,7 +68,7 @@ CAMERAS = [
     {
         "camera_id": "KP01",
         "name": "COUNTING KRAPYAK",
-        "url": "https://livepantau.semarangkota.go.id/60690ef5-ec79-4020-ae17-788a9df42566/index.m3u8",
+        "url": "https://livepantau.semarangkota.go.id/3ef0e69f-129a-40ef-9778-17c6c6d40158/index.m3u8",
         "lat": -6.9877794,
         "lng": 110.3682006,
         "route_order": 2,
@@ -78,7 +78,8 @@ CAMERAS = [
     {
         "camera_id": "HN01",
         "name": "HANOMAN",
-        "url": "https://livepantau.semarangkota.go.id/c83dfda9-1e9e-4b8a-8c83-f7396d7781e4/index.m3u8",
+        "url": "https://livepantau.semarangkota.go.id/8dcb30a0-3c68-4514-9ccb-76a41e1fc387/index.m3u8",
+        "fallback_url": "https://livepantau.semarangkota.go.id/892fa5db-3bea-4412-876f-5e606a646b76/index.m3u8",
         "lat": -6.9866287,
         "lng": 110.3750852,
         "route_order": 3,
@@ -88,7 +89,7 @@ CAMERAS = [
     {
         "camera_id": "KB01",
         "name": "KALIBANTENG",
-        "url": "https://livepantau.semarangkota.go.id/14692ada-0bf1-4da9-bd4f-13a926804958/index.m3u8",
+        "url": "https://livepantau.semarangkota.go.id/a4089997-8fae-442a-91a2-2922f07ded05/index.m3u8",
         "lat": -6.9845739,
         "lng": 110.3835144,
         "route_order": 4,
@@ -98,7 +99,7 @@ CAMERAS = [
     {
         "camera_id": "KG01",
         "name": "KARANGAYU KE TIMUR",
-        "url": "https://livepantau.semarangkota.go.id/fcd5964e-b58b-48f5-b6f0-3e9af143f5c8/index.m3u8",
+        "url": "https://livepantau.semarangkota.go.id/899f25a5-211b-43aa-a70d-7660d0e60918/index.m3u8",
         "lat": -6.9825473,
         "lng": 110.3917226,
         "route_order": 5,
@@ -108,7 +109,7 @@ CAMERAS = [
     {
         "camera_id": "IB01",
         "name": "INDRAPRASTA-IMAM BONJOL",
-        "url": "https://livepantau.semarangkota.go.id/0b44f5b2-780d-4f86-9ecd-801041b8925a/index.m3u8",
+        "url": "https://livepantau.semarangkota.go.id/aa7948d5-026f-4501-9755-7467fc35300f/index.m3u8",
         "lat": -6.9785714,
         "lng": 110.4116360,
         "route_order": 6,
@@ -118,7 +119,7 @@ CAMERAS = [
     {
         "camera_id": "SP01",
         "name": "JPO AHMAD YANI",
-        "url": "https://livepantau.semarangkota.go.id/5e20c403-7f34-4749-8f56-3863711e0d38/index.m3u8",
+        "url": "https://livepantau.semarangkota.go.id/af82809a-39e8-487d-9fb4-ce460b82ef78/index.m3u8",
         "lat": -6.9909267,
         "lng": 110.4244524,
         "route_order": 7,
@@ -128,7 +129,7 @@ CAMERAS = [
     {
         "camera_id": "PH01",
         "name": "DPU_PAHLAWAN",
-        "url": "https://livepantau.semarangkota.go.id/c954ee49-2de6-4e7e-be98-8e17c659f9a9/index.m3u8",
+        "url": "https://livepantau.semarangkota.go.id/19e497ac-604b-462f-a0c3-1496fdd54f23/index.m3u8",
         "lat": -6.9922400,
         "lng": 110.4218597,
         "route_order": 8,
@@ -138,7 +139,7 @@ CAMERAS = [
     {
         "camera_id": "SW01",
         "name": "SRIWIJAYA 02",
-        "url": "https://livepantau.semarangkota.go.id/b23731ab-2aae-4bd0-8b22-2c47d8461f1a/index.m3u8",
+        "url": "https://livepantau.semarangkota.go.id/87a39500-0a2a-41ec-bbbe-1bc6d3160de5/index.m3u8",
         "lat": -7.0014592,
         "lng": 110.4244136,
         "route_order": 9,
@@ -148,7 +149,7 @@ CAMERAS = [
     {
         "camera_id": "KW01",
         "name": "KALIWIRU",
-        "url": "https://livepantau.semarangkota.go.id/cbb3e887-84c4-43c7-9e70-913dc8f460fd/index.m3u8",
+        "url": "https://livepantau.semarangkota.go.id/fd400d25-76d9-4006-8cd3-47b9b5f52755/index.m3u8",
         "lat": -7.0234964,
         "lng": 110.4203931,
         "route_order": 10,
@@ -158,7 +159,7 @@ CAMERAS = [
     {
         "camera_id": "BS01",
         "name": "BUKIT SARI",
-        "url": "https://livepantau.semarangkota.go.id/4ff40187-00a9-440f-9256-9c0a89af55aa/index.m3u8",
+        "url": "https://livepantau.semarangkota.go.id/b957cfea-831c-420d-a09c-2d388ff7b7ce/index.m3u8",
         "lat": -7.0438750,
         "lng": 110.4215776,
         "route_order": 11,
@@ -168,7 +169,7 @@ CAMERAS = [
     {
         "camera_id": "JT01",
         "name": "FLY OVER JATINGALEH WIDE",
-        "url": "https://livepantau.semarangkota.go.id/5b09107f-81a6-4e14-b9b7-7712ef5aef7a/index.m3u8",
+        "url": "https://livepantau.semarangkota.go.id/1f29fa3e-907f-4ff6-88c1-fb97d8a3df83/index.m3u8",
         "lat": -7.0313796,
         "lng": 110.4181186,
         "route_order": 12,
@@ -178,7 +179,7 @@ CAMERAS = [
     {
         "camera_id": "SR01",
         "name": "EXIT TOL SRONDOL",
-        "url": "https://livepantau.semarangkota.go.id/c3814165-b28d-4a32-b33f-007a8e412003/index.m3u8",
+        "url": "https://livepantau.semarangkota.go.id/c275ab86-3f2b-4e9c-b2ce-6e7e6b8f49ed/index.m3u8",
         "lat": -7.0610319,
         "lng": 110.4136418,
         "route_order": 13,
@@ -215,24 +216,32 @@ def downscale(frame: np.ndarray) -> np.ndarray:
     return cv2.resize(frame, (MAX_WIDTH, round(h * scale)), interpolation=cv2.INTER_AREA)
 
 
-def capture_single_camera(cam: dict, timeout: float = 8.0) -> tuple[dict, np.ndarray | None]:
-    """Capture a single frame from one camera stream with timeout."""
-    cap = cv2.VideoCapture(cam["url"], cv2.CAP_FFMPEG)
-    cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
+def capture_single_camera(cam: dict, timeout: float = 8.0) -> tuple[dict, np.ndarray | None, str]:
+    """Capture a single frame from one camera stream with timeout and fallback."""
+    urls = [cam["url"]]
+    if cam.get("fallback_url"):
+        urls.append(cam["fallback_url"])
 
-    deadline = time.monotonic() + timeout
-    frame = None
-    try:
-        while time.monotonic() < deadline:
-            ok, f = cap.read()
-            if ok and f is not None:
-                frame = f
-                break
-            time.sleep(0.2)
-    finally:
-        cap.release()
+    for stream_url in urls:
+        cap = cv2.VideoCapture(stream_url, cv2.CAP_FFMPEG)
+        cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
 
-    return cam, frame
+        deadline = time.monotonic() + timeout
+        frame = None
+        try:
+            while time.monotonic() < deadline:
+                ok, f = cap.read()
+                if ok and f is not None:
+                    frame = f
+                    break
+                time.sleep(0.2)
+        finally:
+            cap.release()
+
+        if frame is not None:
+            return cam, frame, stream_url
+
+    return cam, None, cam["url"]
 
 
 def main() -> int:
@@ -306,7 +315,7 @@ def main() -> int:
                     for cam in CAMERAS
                 }
                 for fut in as_completed(futures):
-                    cam, frame = fut.result()
+                    cam, frame, used_url = fut.result()
                     cid = cam["camera_id"]
                     cname = cam["name"]
                     frame_indices[cid] += 1
@@ -315,7 +324,7 @@ def main() -> int:
                     row = {
                         "frame_id": fid,
                         "capture_timestamp": timestamp_str,
-                        "source_url": cam["url"],
+                        "source_url": used_url,
                         "camera_id": cid,
                         "camera_name": cname,
                         "route_order": cam["route_order"],

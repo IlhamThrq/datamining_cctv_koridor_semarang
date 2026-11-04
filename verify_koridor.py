@@ -8,24 +8,25 @@ import time
 import cv2
 
 PRIMARY = [
-    ("JR01", "JRAKAH", "cd99f288-896a-4e73-9d8c-275ac0008a7d"),
-    ("KP01", "COUNTING KRAPYAK", "60690ef5-ec79-4020-ae17-788a9df42566"),
-    ("HN01", "HANOMAN", "c83dfda9-1e9e-4b8a-8c83-f7396d7781e4"),
-    ("KB01", "KALIBANTENG", "14692ada-0bf1-4da9-bd4f-13a926804958"),
-    ("KG01", "KARANGAYU KE TIMUR", "fcd5964e-b58b-48f5-b6f0-3e9af143f5c8"),
-    ("IB01", "INDRAPRASTA-IMAM BONJOL", "0b44f5b2-780d-4f86-9ecd-801041b8925a"),
-    ("SP01", "SIMPANG LIMA 2", "7af16225-3215-49b7-8966-d649a947960d"),
-    ("PH01", "DPU_PAHLAWAN", "c954ee49-2de6-4e7e-be98-8e17c659f9a9"),
-    ("SW01", "SRIWIJAYA 01", "8eb25438-c8d3-4c8d-98fd-be74d14df3fa"),
-    ("KW01", "KALIWIRU", "cbb3e887-84c4-43c7-9e70-913dc8f460fd"),
-    ("BS01", "BUKIT SARI", "4ff40187-00a9-440f-9256-9c0a89af55aa"),
-    ("JT01", "FLY OVER JATINGALEH WIDE", "5b09107f-81a6-4e14-b9b7-7712ef5aef7a"),
-    ("SR01", "EXIT TOL SRONDOL", "c3814165-b28d-4a32-b33f-007a8e412003"),
+    ("JR01", "JRAKAH", "c095f541-afc8-4125-8e2a-50bdb824ec81"),
+    ("KP01", "COUNTING KRAPYAK", "3ef0e69f-129a-40ef-9778-17c6c6d40158"),
+    ("HN01", "HANOMAN", "8dcb30a0-3c68-4514-9ccb-76a41e1fc387"),
+    ("KB01", "KALIBANTENG", "a4089997-8fae-442a-91a2-2922f07ded05"),
+    ("KG01", "KARANGAYU KE TIMUR", "899f25a5-211b-43aa-a70d-7660d0e60918"),
+    ("IB01", "INDRAPRASTA-IMAM BONJOL", "aa7948d5-026f-4501-9755-7467fc35300f"),
+    ("SP01", "JPO AHMAD YANI", "af82809a-39e8-487d-9fb4-ce460b82ef78"),
+    ("PH01", "DPU_PAHLAWAN", "19e497ac-604b-462f-a0c3-1496fdd54f23"),
+    ("SW01", "SRIWIJAYA 02", "87a39500-0a2a-41ec-bbbe-1bc6d3160de5"),
+    ("KW01", "KALIWIRU", "fd400d25-76d9-4006-8cd3-47b9b5f52755"),
+    ("BS01", "BUKIT SARI", "b957cfea-831c-420d-a09c-2d388ff7b7ce"),
+    ("JT01", "FLY OVER JATINGALEH WIDE", "1f29fa3e-907f-4ff6-88c1-fb97d8a3df83"),
+    ("SR01", "EXIT TOL SRONDOL", "c275ab86-3f2b-4e9c-b2ce-6e7e6b8f49ed"),
 ]
 
 FALLBACKS = {
-    "SW01": ("SW01", "SRIWIJAYA 02", "b23731ab-2aae-4bd0-8b22-2c47d8461f1a"),
-    "KG01": ("KG01", "KARANGAYU KE BARAT", "0305a054-bb38-42f9-801b-113385baa0f6"),
+    "HN01": ("HN01", "RUAS KERAPYAK", "892fa5db-3bea-4412-876f-5e606a646b76"),
+    "SW01": ("SW01", "SRIWIJAYA 01", "19dff7be-9f14-4103-a34c-fecd4d7b18ae"),
+    "KG01": ("KG01", "KARANGAYU KE BARAT", "0366cbe7-d756-4f5f-b4aa-ef3ecf89d967"),
 }
 
 
