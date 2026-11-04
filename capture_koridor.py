@@ -14,7 +14,9 @@ import csv
 import hashlib
 import json
 import signal
+import ssl
 import time
+import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
@@ -188,6 +190,97 @@ CAMERAS = [
     },
 ]
 
+PORTAL_URL = "https://pantausemar.semarangkota.go.id"
+
+SEARCH_RULES: dict[str, list[str]] = {
+    "JR01": ["JRAKAH"],
+    "KP01": ["COUNTING KRAPYAK"],
+    "HN01": ["HANOMAN"],
+    "KB01": ["KALIBANTENG"],
+    "KG01": ["KARANGAYU KE TIMUR"],
+    "IB01": ["INDRAPRASTA-IMAM BONJOL"],
+    "SP01": ["JPO JALAN AHMAD YANI", "JPO AHMAD YANI"],
+    "PH01": ["DPU_PAHLAWAN", "DPU PAHLAWAN"],
+    "SW01": ["SRIWIJAYA 02", "SRIWIJAYA 2"],
+    "KW01": ["KALIWIRU"],
+    "BS01": ["BUKIT SARI"],
+    "JT01": ["FLY OVER JATINGALEH WIDE", "JATINGALEH WIDE"],
+    "SR01": ["EXIT TOL SRONDOL"],
+}
+
+FALLBACK_RULES: dict[str, list[str]] = {
+    "HN01": ["RUAS KERAPYAK", "SIMP EXIT TOL KRAPYAK 360"],
+    "SW01": ["SRIWIJAYA 01", "SRIWIJAYA 1"],
+    "KG01": ["KARANGAYU KE BARAT"],
+}
+
+
+def refresh_camera_urls_from_portal() -> int:
+    """Auto-discover and update stream URLs dynamically from the Pemkot portal.
+
+    Prevents 404 stream failures caused by periodic UUID rotation by Pemkot Semarang.
+    Silently retains existing URLs if the portal is unreachable.
+    """
+    try:
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        req = urllib.request.Request(
+            PORTAL_URL,
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"},
+        )
+        with urllib.request.urlopen(req, context=ctx, timeout=8) as resp:
+            html = resp.read().decode("utf-8", errors="ignore")
+
+        idx = html.find("var cctvs =")
+        if idx == -1:
+            return 0
+        end_idx = html.find("cctvs.forEach", idx)
+        raw = html[idx + len("var cctvs =") : end_idx].strip()
+        end_arr = raw.find("];") + 1
+        cctvs = json.loads(raw[:end_arr])
+
+        def find_url(keywords: list[str]) -> str | None:
+            for item in cctvs:
+                oname = item.get("owner_name", "").upper()
+                links = item.get("links", [])
+                for kw in keywords:
+                    kw_up = kw.upper()
+                    if kw_up in oname:
+                        for l in links:
+                            lname = l.get("name", "").upper()
+                            if kw_up in lname or len(links) == 1:
+                                return l.get("url")
+                        if links:
+                            return links[0].get("url")
+            for item in cctvs:
+                for l in item.get("links", []):
+                    lname = l.get("name", "").upper()
+                    for kw in keywords:
+                        if kw.upper() in lname:
+                            return l.get("url")
+            return None
+
+        updated = 0
+        for cam in CAMERAS:
+            cid = cam["camera_id"]
+            if cid in SEARCH_RULES:
+                new_url = find_url(SEARCH_RULES[cid])
+                if new_url and new_url != cam.get("url"):
+                    cam["url"] = new_url
+                    updated += 1
+            if cid in FALLBACK_RULES:
+                new_fb = find_url(FALLBACK_RULES[cid])
+                if new_fb and new_fb != cam.get("fallback_url"):
+                    cam["fallback_url"] = new_fb
+
+        if updated > 0:
+            print(f"[AUTO-DISCOVERY] Successfully refreshed {updated} camera stream URLs from portal.", flush=True)
+        return updated
+    except Exception as exc:
+        print(f"[AUTO-DISCOVERY] Note: Portal check skipped ({exc}); using active camera URLs.", flush=True)
+        return 0
+
 
 def stop_capture(_signum, _frame):
     global STOP
@@ -258,6 +351,7 @@ def main() -> int:
     csv_path = args.output / "raw_cctv_metadata.csv"
     file_exists = csv_path.exists() and csv_path.stat().st_size > 0
 
+    refresh_camera_urls_from_portal()
     registry_path = args.output / "camera_registry.json"
     with registry_path.open("w", encoding="utf-8") as f:
         json.dump(CAMERAS, f, indent=2)
@@ -382,6 +476,9 @@ def main() -> int:
             ok_count = sum(1 for r in results if r["capture_status"] == "captured")
             elapsed = time.monotonic() - cycle_start
             print(f"Cycle completed in {elapsed:.1f}s: {ok_count}/{len(CAMERAS)} frames captured.", flush=True)
+
+            if ok_count < len(CAMERAS) and not STOP:
+                refresh_camera_urls_from_portal()
 
             sleep_time = args.interval - elapsed
             if args.duration > 0:
