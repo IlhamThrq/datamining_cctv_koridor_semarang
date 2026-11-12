@@ -64,7 +64,7 @@
   {
     "camera_id": "SP01",
     "name": "JPO AHMAD YANI",
-    "url": "https://livepantau.semarangkota.go.id/b9dca978-da64-4178-b1f8-e8d85b81da0c/index.m3u8",
+    "url": "https://livepantau.semarangkota.go.id/af82809a-39e8-487d-9fb4-ce460b82ef78/index.m3u8",
     "lat": -6.9909267,
     "lng": 110.4244524,
     "route_order": 7,
@@ -75,7 +75,7 @@
     "camera_id": "PH01",
     "name": "DPU_PAHLAWAN",
     "url": "https://livepantau.semarangkota.go.id/e3ea2102-dc9f-4085-9b6e-a37d3bfa0e03/index.m3u8",
-    "fallback_url": "https://livepantau.semarangkota.go.id/7c7320f7-df29-4cbd-8c60-9bc72ed76c42/index.m3u8",
+    "fallback_url": "https://livepantau.semarangkota.go.id/aab024b1-6ec4-4410-a476-861f1d5261ad/index.m3u8",
     "lat": -6.99224,
     "lng": 110.4218597,
     "route_order": 8,
@@ -85,13 +85,12 @@
   {
     "camera_id": "SW01",
     "name": "SRIWIJAYA 02",
-    "url": "https://livepantau.semarangkota.go.id/b2bc8a02-207a-4ce3-86a4-e2484d789ddf/index.m3u8",
+    "url": "https://livepantau.semarangkota.go.id/87a39500-0a2a-41ec-bbbe-1bc6d3160de5/index.m3u8",
     "lat": -7.0014592,
     "lng": 110.4244136,
     "route_order": 9,
     "route": "arterial",
-    "zone": "Pusat-Selatan / Peterongan",
-    "fallback_url": "https://livepantau.semarangkota.go.id/c33b159d-f0e8-4a83-9448-75283b5ae0d6/index.m3u8"
+    "zone": "Pusat-Selatan / Peterongan"
   },
   {
     "camera_id": "KW01",
