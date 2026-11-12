@@ -2,7 +2,7 @@
   {
     "camera_id": "JR01",
     "name": "JRAKAH",
-    "url": "https://livepantau.semarangkota.go.id/c095f541-afc8-4125-8e2a-50bdb824ec81/index.m3u8",
+    "url": "https://livepantau.semarangkota.go.id/f9695620-974a-49ed-9d7f-663bee2bfa26/index.m3u8",
     "lat": -6.9866272,
     "lng": 110.3605996,
     "route_order": 1,
@@ -12,7 +12,7 @@
   {
     "camera_id": "KP01",
     "name": "COUNTING KRAPYAK",
-    "url": "https://livepantau.semarangkota.go.id/3ef0e69f-129a-40ef-9778-17c6c6d40158/index.m3u8",
+    "url": "https://livepantau.semarangkota.go.id/a3566012-8c41-4c09-9202-ff756b976d30/index.m3u8",
     "lat": -6.9877794,
     "lng": 110.3682006,
     "route_order": 2,
@@ -22,8 +22,8 @@
   {
     "camera_id": "HN01",
     "name": "HANOMAN",
-    "url": "https://livepantau.semarangkota.go.id/8dcb30a0-3c68-4514-9ccb-76a41e1fc387/index.m3u8",
-    "fallback_url": "https://livepantau.semarangkota.go.id/9560f4b7-edeb-4d99-a807-a7478c36492c/index.m3u8",
+    "url": "https://livepantau.semarangkota.go.id/1517cbab-c1ee-429e-8daf-ec7cd6706cfa/index.m3u8",
+    "fallback_url": "https://livepantau.semarangkota.go.id/5f03680a-9dac-4ffe-8b28-864d0e1125df/index.m3u8",
     "lat": -6.9866287,
     "lng": 110.3750852,
     "route_order": 3,
@@ -33,7 +33,7 @@
   {
     "camera_id": "KB01",
     "name": "KALIBANTENG",
-    "url": "https://livepantau.semarangkota.go.id/a4089997-8fae-442a-91a2-2922f07ded05/index.m3u8",
+    "url": "https://livepantau.semarangkota.go.id/81575009-331d-400b-a622-5f983cce9284/index.m3u8",
     "lat": -6.9845739,
     "lng": 110.3835144,
     "route_order": 4,
@@ -43,18 +43,18 @@
   {
     "camera_id": "KG01",
     "name": "KARANGAYU KE TIMUR",
-    "url": "https://livepantau.semarangkota.go.id/899f25a5-211b-43aa-a70d-7660d0e60918/index.m3u8",
+    "url": "https://livepantau.semarangkota.go.id/abeacd51-d032-4bd3-93ee-21bb90dd4f49/index.m3u8",
     "lat": -6.9825473,
     "lng": 110.3917226,
     "route_order": 5,
     "route": "arterial",
     "zone": "Barat-Pusat / Koridor Papandayan",
-    "fallback_url": "https://livepantau.semarangkota.go.id/0366cbe7-d756-4f5f-b4aa-ef3ecf89d967/index.m3u8"
+    "fallback_url": "https://livepantau.semarangkota.go.id/2b63391e-7a02-42ce-b75a-5617fc32f068/index.m3u8"
   },
   {
     "camera_id": "IB01",
     "name": "INDRAPRASTA-IMAM BONJOL",
-    "url": "https://livepantau.semarangkota.go.id/aa7948d5-026f-4501-9755-7467fc35300f/index.m3u8",
+    "url": "https://livepantau.semarangkota.go.id/4aac3b7d-0885-40d0-8d08-00fefc463cad/index.m3u8",
     "lat": -6.9785714,
     "lng": 110.411636,
     "route_order": 6,
@@ -64,7 +64,7 @@
   {
     "camera_id": "SP01",
     "name": "JPO AHMAD YANI",
-    "url": "https://livepantau.semarangkota.go.id/af82809a-39e8-487d-9fb4-ce460b82ef78/index.m3u8",
+    "url": "https://livepantau.semarangkota.go.id/b9dca978-da64-4178-b1f8-e8d85b81da0c/index.m3u8",
     "lat": -6.9909267,
     "lng": 110.4244524,
     "route_order": 7,
@@ -74,8 +74,8 @@
   {
     "camera_id": "PH01",
     "name": "DPU_PAHLAWAN",
-    "url": "https://livepantau.semarangkota.go.id/19e497ac-604b-462f-a0c3-1496fdd54f23/index.m3u8",
-    "fallback_url": "https://livepantau.semarangkota.go.id/aab024b1-6ec4-4410-a476-861f1d5261ad/index.m3u8",
+    "url": "https://livepantau.semarangkota.go.id/e3ea2102-dc9f-4085-9b6e-a37d3bfa0e03/index.m3u8",
+    "fallback_url": "https://livepantau.semarangkota.go.id/7c7320f7-df29-4cbd-8c60-9bc72ed76c42/index.m3u8",
     "lat": -6.99224,
     "lng": 110.4218597,
     "route_order": 8,
@@ -85,18 +85,18 @@
   {
     "camera_id": "SW01",
     "name": "SRIWIJAYA 02",
-    "url": "https://livepantau.semarangkota.go.id/87a39500-0a2a-41ec-bbbe-1bc6d3160de5/index.m3u8",
+    "url": "https://livepantau.semarangkota.go.id/b2bc8a02-207a-4ce3-86a4-e2484d789ddf/index.m3u8",
     "lat": -7.0014592,
     "lng": 110.4244136,
     "route_order": 9,
     "route": "arterial",
     "zone": "Pusat-Selatan / Peterongan",
-    "fallback_url": "https://livepantau.semarangkota.go.id/19dff7be-9f14-4103-a34c-fecd4d7b18ae/index.m3u8"
+    "fallback_url": "https://livepantau.semarangkota.go.id/c33b159d-f0e8-4a83-9448-75283b5ae0d6/index.m3u8"
   },
   {
     "camera_id": "KW01",
     "name": "KALIWIRU",
-    "url": "https://livepantau.semarangkota.go.id/fd400d25-76d9-4006-8cd3-47b9b5f52755/index.m3u8",
+    "url": "https://livepantau.semarangkota.go.id/b5ba555e-2fd6-433d-aa0c-f37207509fdd/index.m3u8",
     "lat": -7.0234964,
     "lng": 110.4203931,
     "route_order": 10,
@@ -106,7 +106,7 @@
   {
     "camera_id": "BS01",
     "name": "BUKIT SARI",
-    "url": "https://livepantau.semarangkota.go.id/b957cfea-831c-420d-a09c-2d388ff7b7ce/index.m3u8",
+    "url": "https://livepantau.semarangkota.go.id/f68c51d0-faef-4401-8101-2219e29be81d/index.m3u8",
     "lat": -7.043875,
     "lng": 110.4215776,
     "route_order": 11,
@@ -116,8 +116,8 @@
   {
     "camera_id": "JT01",
     "name": "FLY OVER JATINGALEH WIDE",
-    "url": "https://livepantau.semarangkota.go.id/1f29fa3e-907f-4ff6-88c1-fb97d8a3df83/index.m3u8",
-    "fallback_url": "https://livepantau.semarangkota.go.id/11b579fd-143a-4b26-8ed8-00eecbba0e30/index.m3u8",
+    "url": "https://livepantau.semarangkota.go.id/971f913b-c7c0-472e-b0cc-4e358d052e3a/index.m3u8",
+    "fallback_url": "https://livepantau.semarangkota.go.id/6029d95a-d687-403a-b548-e840b2666d36/index.m3u8",
     "lat": -7.0313796,
     "lng": 110.4181186,
     "route_order": 12,
@@ -127,7 +127,7 @@
   {
     "camera_id": "SR01",
     "name": "EXIT TOL SRONDOL",
-    "url": "https://livepantau.semarangkota.go.id/c275ab86-3f2b-4e9c-b2ce-6e7e6b8f49ed/index.m3u8",
+    "url": "https://livepantau.semarangkota.go.id/1b091e92-9cae-4047-8bc5-92b491c62a21/index.m3u8",
     "lat": -7.0610319,
     "lng": 110.4136418,
     "route_order": 13,
